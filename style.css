@@ -1,0 +1,161 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+
+.header, .hero-section, .footer {
+    background-color: #1F2937;
+    padding: 0px 196px;
+}
+
+.main {
+    flex: 1;
+}
+
+h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 16px 0px;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    padding: 36px 196px;
+    gap: 32px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+ul, .hero-subtext, .footer {
+    color: #e5e7eb;
+}
+
+button {
+    border-radius: 4px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    width: 80px;
+    padding: 8px 0px;
+}
+
+img {
+    border-radius: 8px;
+    flex: 1;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+.random-info-section {
+    max-width: 600px;
+    margin: auto;
+    padding: 36px 196px;
+}
+
+.cards {
+    display:flex;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 48px 196px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    font-style: italic;
+}
+
+cite {
+    font-weight: bold;
+    display: block;
+    text-align: right;
+}
+
+.cta-section {
+    margin: 96px 196px;
+    background-color: #3882f6;
+    padding: 32px 96px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.cta-subtext {
+    margin: 0px;
+}
+
+.cta-button {
+    height: 32px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    padding: 0px 16px;
+}
+
+.footer {
+    text-align: center;
+}
